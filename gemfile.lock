@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (4.1.0)
+    ffi (1.15.5-x64-mingw-ucrt)
+    inifile (3.0.0)
+    regexp_parser (2.4.0)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.1.0)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2)
+    watir (7.1.0)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (~> 4.0)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  ffi (~> 1.15)
+  inifile (~> 3.0)
+  watir (~> 7.1)
+
+BUNDLED WITH
+   2.3.13

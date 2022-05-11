@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+# Gems go here
+
+gem "watir", "~> 7.1"
+
+gem "ffi", "~> 1.15"
+
+gem "inifile", "~> 3.0"
